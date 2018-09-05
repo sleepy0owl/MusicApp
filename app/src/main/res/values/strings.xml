@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MusicApp</string>
+    <string name="rock">Rock</string>
+    <string name="blues">Blues</string>
+    <string name="jazz">Jazz</string>
+    <string name="folk">Folk</string>
+    <string name="country">Country</string>
+    <string name="pop">Pop</string>
+</resources>
