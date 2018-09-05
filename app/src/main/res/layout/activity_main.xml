@@ -96,7 +96,7 @@
         android:layout_weight="1"
         android:background="@android:color/white"
         android:gravity="center_vertical"
-        android:padding="@dimen/view_height"
+        android:padding="@dimen/padding"
         android:text="@string/country"
         android:textAppearance="?android:textAppearanceMedium"
         android:textStyle="bold" />
