@@ -1,26 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    xmlns:tools="http://schemas.android.com/tools">
+    android:orientation="vertical">
+
     <TextView
-        android:paddingLeft="16dp"
-        android:paddingTop="16dp"
         android:id="@+id/song_name"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="@dimen/height"
         android:layout_weight="1"
-        android:textStyle="bold"
+        android:paddingStart="@dimen/padding"
+        android:paddingTop="@dimen/padding"
         android:textAppearance="?android:textAppearanceMedium"
-        tools:text="Stairway to Heaven"/>
+        android:textStyle="bold"
+        tools:text="Stairway to Heaven" />
+
     <TextView
-        android:paddingLeft="16dp"
-        android:paddingBottom="16dp"
         android:id="@+id/song_artist"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="@dimen/height"
         android:layout_weight="1"
-        tools:text="Led Zeppelin"/>
+        android:paddingBottom="@dimen/padding"
+        android:paddingStart="@dimen/padding"
+        tools:text="Led Zeppelin" />
 
 </LinearLayout>
