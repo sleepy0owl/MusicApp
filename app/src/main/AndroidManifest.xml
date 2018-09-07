@@ -17,17 +17,23 @@
             </intent-filter>
         </activity>
         <activity android:name=".RockActivity"
-                  android:label="@string/rock"/>
+                  android:label="@string/rock"
+                  android:parentActivityName=".MainActivity"/>
         <activity android:name=".JazzActivity"
-                  android:label="@string/jazz"/>
+                  android:label="@string/jazz"
+                  android:parentActivityName=".MainActivity"/>
         <activity android:name=".BluesActivity"
-                  android:label="@string/blues"/>
+                  android:label="@string/blues"
+                  android:parentActivityName=".MainActivity"/>
         <activity android:name=".FolkActivity"
-                  android:label="@string/folk"/>
+                  android:label="@string/folk"
+                  android:parentActivityName=".MainActivity"/>
         <activity android:name=".CountryActivity"
-                  android:label="@string/country"/>
+                  android:label="@string/country"
+                  android:parentActivityName=".MainActivity"/>
         <activity android:name=".PopActivity"
-                  android:label="@string/pop"/>
+                  android:label="@string/pop"
+                  android:parentActivityName=".MainActivity"/>
     </application>
 
 </manifest>
